@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ImageProcessing</string>
+    <string name="insert_image">Insert image</string>
+</resources>
