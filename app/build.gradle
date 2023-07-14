@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.imageprocessing"
-        minSdk 33
+        minSdk 30
         targetSdk 33
         versionCode 1
         versionName "1.0"
@@ -60,4 +60,5 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_ui_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_ui_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_ui_version"
+    implementation("io.coil-kt:coil-compose:2.4.0")
 }
