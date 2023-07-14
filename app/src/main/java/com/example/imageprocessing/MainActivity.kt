@@ -57,19 +57,19 @@ fun ImageVisualizationScreen() {
     }
 }
 
-@Composable
-fun ImagePicker(
-    onPicked: (List<AssetInfo>) -> Unit,
-    onClose: (List<AssetInfo>) -> Unit,
-) {
-    PickerPermissions(permissions = listOf(Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.CAMERA)) {
-        AssetPicker(
-            assetPickerConfig = AssetPickerConfig(gridCount = 3),
-            onPicked = onPicked,
-            onClose = onClose
-        )
-    }
-}
+//@Composable
+//fun ImagePicker(
+//    onPicked: (List<AssetInfo>) -> Unit,
+//    onClose: (List<AssetInfo>) -> Unit,
+//) {
+//    PickerPermissions(permissions = listOf(Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.CAMERA)) {
+//        AssetPicker(
+//            assetPickerConfig = AssetPickerConfig(gridCount = 3),
+//            onPicked = onPicked,
+//            onClose = onClose
+//        )
+//    }
+//}
 
 @Preview(showBackground = true)
 @Composable
